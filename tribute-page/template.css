@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #151414;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+nav li {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #707070;
+}
+
+nav li:hover, .active{
+    color: white;
+}
+
+.stephen_background {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.stephen_background .subtitle, .phrase, .death {
+    color: #707070;
+    padding-left: 30px;
+}
+
+.stephen_background .death {
+    font-size: 40px;
+}
+
+.stephen_background .subtitle {
+    font-size: 40px;
+}
+
+.stephen_background .phrase {
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.stephen_background .title {
+    color: white;
+    font-size: 70px;
+    padding-left: 30px;
+}
+
+
+
+#main_section {
+    display: flex;
+    justify-content: center; 
+    background-color: #151414;
+}
+
+.stephen_img img {
+    width: 100% ;
+}
+
+#geral {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#geral .title {
+    color: #707070;
+    font-size: 25px;
+    
+}
+
+#geral .biography_text {
+    color: #707070;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+
+#timeline .title {
+    font-size: 25px;
+    color: white;  
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+
+.stephen_timeline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    
+    
+}
+
+#timeline {
+    display: flex;
+    justify-content: center;
+    background-color: #151414;
+    
+}
+
+
+.timeline_content .timeline_text {
+    color: #707070;
+    font-size: 20px;
+    
+}
+
+.timeline_content .date {
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.timeline_left,
+.timeline_right {
+    display: flex;
+    flex-flow: column wrap;  
+    justify-content: space-between;
+    flex: 1;
+    
+}
+
+.timeline_left {
+    padding-right: 30px;
+}
+
+
+#timeline .container {
+    display: block
+}
+
+.timeline_content .date,
+.timeline_text {
+    padding-bottom: 10px;
+}
+
+
+footer .text {
+    padding: 100px;
+    color: #707070;
+    font-size: 30px;
+    padding-bottom: 5px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.copyright {
+    color: #707070;
+    text-align: center;
+    
+}
+
+    
